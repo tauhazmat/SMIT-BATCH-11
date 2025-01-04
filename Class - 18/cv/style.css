@@ -1,0 +1,29 @@
+img{
+    width: 150px;
+    margin-left: 20px;
+    margin: auto;
+    display: block;
+}
+div{
+    margin: auto;
+    width: 1300px;
+    border: 2px solid white;
+    height: 700px;
+}
+h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    color: white;
+    text-align: center;
+}
+body{
+    background-image: linear-gradient( to right, blue, green);
+}
+p{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+img{
+    width: 40px;
+    display: ;
+}

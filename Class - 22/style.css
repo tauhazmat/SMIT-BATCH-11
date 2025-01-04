@@ -1,0 +1,27 @@
+ol{
+    list-style: upper-roman;
+}
+ul{
+    list-style-type: square;
+    list-style: circle inside;
+    /* list-style-image: url(skullbullet.jpg); */
+}
+table{
+    width: 700px;
+    empty-cells: hide;
+    text-transform: uppercase;
+    border-collapse: collapse;
+}
+td, th{
+    border: 1px solid black;
+    padding: 10px; 
+}
+.even{
+    background-color: #efefef;
+}
+tr:hover{
+    background-color: #c3e6e5;
+}
+.money{
+    text-align: right;
+}

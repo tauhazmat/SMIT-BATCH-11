@@ -1,0 +1,14 @@
+*{
+    
+}
+a{
+    color: green;
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+    display: inline;
+}
+ul{
+    text-align: center;
+}

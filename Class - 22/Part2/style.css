@@ -1,0 +1,29 @@
+.odd{
+    width: 50%;
+}
+.even{
+    width: 50%;
+    position: relative;
+    left: 50%;
+    /* top: 50%; */
+}
+h2{
+    position: absolute;
+    top: 260px;
+    left: 950px;
+    z-index: 10;
+}
+h3{
+    position: fixed;
+    top: 0;
+    background-color: red;
+    z-index: -5;
+}
+p{
+    background-color: aliceblue;
+    z-index: 5;
+}
+a{
+    position: sticky;
+    top: 0;
+}

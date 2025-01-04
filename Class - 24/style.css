@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    border-bottom: 1px solid grey;
+    display: flex;
+    position: sticky;
+}
+.logo{
+    width: 250px;
+}
+.toplinksdiv{
+    margin-left: 650px;
+    margin-top: 20px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.toplinks{
+    color: #8dc63f;
+    text-decoration: none;
+    font-size: 23px;
+    margin: 10px;
+}
+.toplinks:hover{
+    text-decoration: underline;
+}
+.greenbox{
+    border: 1px solid #8dc63f;
+    background-color: #8dc63f;
+    padding: 5px 30px;
+    width: 330px ;
+    height: 3px;
+    border-radius: 5px; 
+    margin: 0 auto;
+    margin-top: -1px;
+}
+.cont{
+    width: 220px;
+    justify-content: space-between;
+}
+.services{
+    justify-content: space-evenly;
+    align-items: center;
+    width: 250px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.p{
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+}
+.edu{
+    justify-content: space-evenly;
+    align-items: center;
+    width: 250px;
+    margin-left: 500px;
+    margin-top: -180px;
+}
+.health{
+    justify-content: space-evenly;
+    align-items: center;
+    width: 250px;
+    margin-left: 800px;
+    margin-top: -180px;
+}
+.row{
+    margin-left: 70px;
+}
+.row2{
+    margin-left: 70px;
+}
+/* .leaf{
+    width: 30px;
+    margin-left: 60px;
+} */
+.chatcont{
+    bottom: 0;
+    float: right;
+    margin-right: 50px;
+    position: sticky;
+}
+.chat{
+    width: 100px;
+    height: 100px;
+}

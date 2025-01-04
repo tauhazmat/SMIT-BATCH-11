@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+    width: 300px;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0.5px solid lightgrey;
+    background-color: white;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    position: sticky;
+}
+.toplinksdiv{
+    display: flex;
+    width: -10%;
+}
+div>ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: 1.5em;
+    color: #8dc63f;
+}
+li{
+    margin: 10px;
+}
+.toplinks{
+    color: #8dc63f;
+    text-decoration: none;
+}
+.toplinks:hover{
+    text-decoration: underline;
+}
+.greenbox{
+    display: flex;
+    background-color: #8dc63f;
+    padding: 20px;
+    width: 25%;
+    margin-left: 30%;
+    margin-top: -33px;
+    border-radius: 10px;
+}
+.outline{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 3%;
+    width: 89%;
+    margin: 0;
+}
+.content{
+    top: 90px;
+    /* border: 1px solid red; */
+    /* display: flex; */
+    width: 23%;
+    padding: 2%;
+}
+.leaf{
+    width: 40px;
+    margin-left: 100px;
+}
+.chatdiv{
+    bottom: 40px;
+    right: 50px;
+    /* margin-right: -150px; */
+    position: fixed;
+    display: flex;
+}
+.chat{
+    width: 100px;
+    height: 100px;
+}

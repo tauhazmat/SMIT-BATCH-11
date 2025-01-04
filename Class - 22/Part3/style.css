@@ -1,0 +1,8 @@
+.col-1, .col-2{
+    float: left;
+}
+.col-1{
+    width: 60%;
+    position: relative;
+    top: 50%;
+}
