@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <!-- 
+        Get method
+        read
+        insensitive info
+
+
+        post method
+        crate update delete
+        sensitive info
+     -->
+
+     <!--
+      symbol
+     -->
+     
+     <pre>
+" (\_/) "
+  (•.•)
+  />❤<\
+     </pre>
+
+    <form method="get">
+      <input type="hidden" name="Usercame" value="true" />
+      <fieldset>
+        <legend>For Harvard applying Students only...</legend>
+      <label>
+        Student name: <input type="text" name="student name" required />
+      </label>
+      <br />
+      <br />
+      <label>
+        Password: <input type="password" name="password" required />
+      </label>
+    </fieldset>
+      <br />
+      <br />
+      <fieldset>
+      <label>
+        Male: <input type="radio" name="gender" value="male" required />
+      </label>
+
+      <label>
+        Female: <input type="radio" name="gender" value="female" required />
+      </label>
+    </fieldset>
+      <br />
+      <br />
+      <fieldset>
+        <p>Select your desired subject:</p>
+      <label>
+        Web and Mobile<input
+          type="checkbox"
+          value="Web and Mobile"
+          name="subject"
+        />
+      </label>
+
+      <label>
+        Python<input type="checkbox" value="Python" name="subject" />
+      </label>
+
+      <label>
+        JavaScript<input type="checkbox" value="JavaScript" name="subject" />
+      </label>
+      <br />
+      <br />  
+      </fieldset>
+      
+      <hr />
+      <label>
+        Upload your Picture: <input type="file" name="Student's Picture" />
+      </label>
+      <br />
+      <br />
+      <hr />
+      <h3>
+        Choose your day of study:
+        <h4>(Hold control to select multiple days)</h4>
+      </h3>
+      <select name="Days" multiple required>
+        <option value="Choose your study days">Choose your study days</option>
+        <option value="Monday">Monday</option>
+        <option value="Tuesday">Tuesday</option>
+        <option value="Wednesday">Wednesday</option>
+        <option value="Thursday">Thursday</option>
+        <option value="Friday">Friday</option>
+        <option value="Saturday">Saturday</option>
+        <option value="Sunday">Sunday</option>
+      </select>
+      <br />
+      <br />
+      <hr />
+      <select name="time slots" required>
+        <option value="Choose your time slot">Choose your time slot</option>
+        <option value="Morning">2.00 to 4.00</option>
+        <option value="Afternoon">4.00 to 6.00</option>
+        <option value="Night">6.00 to 8.00</option>
+      </select>
+      <br />
+      <br />
+      <hr />
+      <label>
+        Write about yourself: <br />
+        <textarea
+          name="Student's Info"
+          cols="30"
+          rows="10"
+          placeholder="Write about your self"
+          required
+        ></textarea>
+      </label>
+      <br />
+      <br />
+      <input type="image" src="Supra mk4.PNG" name="" id="" width="200">
+    </form>                        
+  </body>
+</html>

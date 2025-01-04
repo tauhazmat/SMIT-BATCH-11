@@ -1,0 +1,31 @@
+img{
+    width: 40%;
+}
+.img1{
+    height: 270px;
+}
+/*h1{
+    color: white;
+    background-color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 20%;
+    height: 70px;
+    text-transform: uppercase;
+} */
+div{
+    border: solid darkcyan 10px;
+    background-color: aquamarine;
+    padding: 2%;
+}
+h1, p{
+    color: purple x;
+    background-color: rgb(0, 255, 255);
+    font-weight: bold;
+}
+body{
+    background-color: burlywood;
+}
+h1{
+    width: 14%;
+}
