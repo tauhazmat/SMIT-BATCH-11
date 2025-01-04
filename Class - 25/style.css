@@ -1,0 +1,35 @@
+.container{
+    border: 1px solid green;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: space-evenly; 
+    align-items: flex-start;
+    /* align-content: space-evenly; */
+    /* background-color: pink; */
+}
+.container>div{
+    border: 1px solid green;
+    width: 25%;
+    /* height: 200px; */
+}
+.special{
+    /* order: -1; */
+    background-color: pink;
+    flex-grow: 2;
+}
+.order{
+    order: 1;
+}
+/* .container{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.container>div{
+    border: 1px solid green;
+    width: 20%;
+} */
